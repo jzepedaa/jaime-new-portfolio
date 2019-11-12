@@ -66,8 +66,8 @@ class Projects extends Component {
                       Website built with Reac.js, React Bootstrap, Node.js, HTML, CSS
     </Card.Text>
                     <ButtonToolbar>
-                      <Button variant="outline-secondary" block href="https://tiztalcafe.com">Live Website</Button>
-                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/cafetiztal">Github Repo</Button>
+                      <Button variant="outline-secondary" block href="https://tiztalcafe.com" target="_blank">Live Website</Button>
+                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/cafetiztal" target="_blank">Github Repo</Button>
                     </ButtonToolbar>
                   </Card.Body>
                 </Card>
@@ -89,8 +89,8 @@ class Projects extends Component {
                       Website built with React.js, Redux, Materialize CSS, Node.js, Mongoose (ORM), Deployed on Heroku
     </Card.Text>
                     <ButtonToolbar>
-                      <Button variant="outline-secondary" block href="https://satisfying-wanderlust.herokuapp.com/">Live Website</Button>
-                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/wanderlust">Github Repo</Button>
+                      <Button variant="outline-secondary" block href="https://satisfying-wanderlust.herokuapp.com/" target="_blank">Live Website</Button>
+                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/wanderlust" target="_blank">Github Repo</Button>
                     </ButtonToolbar>
                   </Card.Body>
                 </Card>
@@ -108,8 +108,8 @@ class Projects extends Component {
                       Website built with HTML, CSS, Bootstrap, javascript, AJAX, animate.css, fontawesome,
     </Card.Text>
                     <ButtonToolbar>
-                      <Button variant="outline-secondary" block href="https://jzepedaa.github.io/HoopData2/#data">Live Website</Button>
-                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/HoopData2">Github Repo</Button>
+                      <Button variant="outline-secondary" block href="https://jzepedaa.github.io/HoopData2/#data" target="_blank">Live Website</Button>
+                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/HoopData2" target="_blank">Github Repo</Button>
                     </ButtonToolbar>
                   </Card.Body>
                 </Card>
@@ -123,8 +123,8 @@ class Projects extends Component {
                       Website built with HTML, CSS, Javascript
     </Card.Text>
                     <ButtonToolbar>
-                      <Button variant="outline-secondary" block href="https://jzepedaa.github.io/TriviaGame/">Live Website</Button>
-                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/TriviaGame">Github Repo</Button>
+                      <Button variant="outline-secondary" block href="https://jzepedaa.github.io/TriviaGame/" target="_blank">Live Website</Button>
+                      <Button variant="outline-secondary" block href="https://github.com/jzepedaa/TriviaGame" target="_blank">Github Repo</Button>
                     </ButtonToolbar>
                   </Card.Body>
                 </Card>
