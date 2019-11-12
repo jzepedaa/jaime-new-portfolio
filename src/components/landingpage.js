@@ -86,9 +86,6 @@ class Landing extends Component {
                   <h1>Frontend Developer</h1>
 
                   <hr />
-
-                  <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-
                   <div className="social-links">
 
 
@@ -101,6 +98,9 @@ class Landing extends Component {
                     </a>
 
                   </div>
+
+                  <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+
                 </Container>
               </div>
 
