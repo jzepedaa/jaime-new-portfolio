@@ -4,12 +4,14 @@ import styled from 'styled-components';
 import jaime from '../photos/Jaime.jpg';
 import { Container } from 'react-bootstrap';
 import Footer from "./footer";
+import { Button } from "react-bootstrap"
 
 
 const Styles = styled.div`
 .title{
   width: 100%;
   margin: auto;
+  /* padding-bottom: 100px; */
 }
 .landing-grid {
 background-image: url('https://images.wallpaperscraft.com/image/dark_black_and_white_abstract_black_background_76353_2560x1440.jpg');
@@ -68,7 +70,9 @@ background-image: url('https://images.wallpaperscraft.com/image/dark_black_and_w
   text-align: center;
 }
 
-
+.inner{
+  padding-bottom: 50px;
+}
 
 `
 
@@ -82,25 +86,29 @@ class Landing extends Component {
             <Cell col={10}>
               <img src={jaime} alt="jaime" className="avatar-img" />
               <div className="banner-text">
-                <Container>
+                <Container className="inner">
                   <h1>Frontend Developer</h1>
 
                   <hr />
-                  <div className="social-links">
-
-
-                    <a className="links" href="https://www.linkedin.com/in/jaime-zepeda02/" rel="noopener noreferrer" target="_blank">
-                      <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    </a>
-
-                    <a className="links" href="https://github.com/jzepedaa" rel="noopener noreferrer" target="_blank">
-                      <i className="fa fa-github-square" aria-hidden="true" />
-                    </a>
-
-                  </div>
 
                   <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
+                  <Button variant="outline-secondary" block href="https://www.linkedin.com/in/jaime-zepeda02/" target="_blank">LinekdIn</Button>
+
+                  <Button variant="outline-secondary" block href="https://github.com/jzepedaa" target="_blank">Github</Button>
+
+                  {/* <div className="social-links"> */}
+
+
+                  {/* <a className="links" href="https://www.linkedin.com/in/jaime-zepeda02/" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  </a>
+
+                  <a className="links" href="https://github.com/jzepedaa" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-github-square" aria-hidden="true" />
+                  </a> */}
+
+                  {/* </div> */}
                 </Container>
               </div>
 
@@ -117,3 +125,7 @@ class Landing extends Component {
 }
 
 export default Landing;
+
+
+
+
